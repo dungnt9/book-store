@@ -1,3 +1,5 @@
+# Hướng dẫn clone, run project
+
 ## 1. Thiết lập Backend (Java Spring Boot)
 
 1. **Cài đặt Java và Maven**
@@ -34,8 +36,11 @@
 
 ## 3. Thiết lập Cơ Sở Dữ Liệu
 
-1. **Tạo Cơ Sở Dữ Liệu**: Bạn cần tạo cơ sở dữ liệu bằng cách sử dụng file `.sql` có trong thư mục `db`:
-
+1. **Tạo Cơ Sở Dữ Liệu**:
+    ```sql
+    CREATE DATABASE mybookstore
+    ```
+    Sau đó sử dụng file `.sql` có trong thư mục `db` để nạp dữ liệu mẫu
     ```bash
     mysql -u root -p mybookstore < path/to/book-store/db/output_file.sql
     ```
