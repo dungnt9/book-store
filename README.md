@@ -45,8 +45,6 @@
     mysql -u root -p mybookstore < path/to/book-store/db/output_file.sql
     ```
 
-2. **Cấu hình Cơ Sở Dữ Liệu**: Đảm bảo rằng cấu hình kết nối đến cơ sở dữ liệu trong ứng dụng backend đã được thiết lập chính xác (thường là trong file cấu hình như `application.properties`).
+2. **Cấu hình Cơ Sở Dữ Liệu**: Đảm bảo rằng cấu hình kết nối đến cơ sở dữ liệu trong ứng dụng backend đã được thiết lập chính xác (xem trong file cấu hình `application.properties`).
 
 ## 4. Cập Nhật Các Biến Môi Trường
-
-Nếu có các biến môi trường, bạn cần tạo file `.env` (nếu có) và thiết lập giá trị tương ứng.
