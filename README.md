@@ -1,6 +1,6 @@
 ## 1. Thiết lập Backend (Java Spring Boot)
 
-1. **Cài đặt Java và Maven**: Đảm bảo rằng bạn đã cài đặt Java JDK và Maven hoặc Gradle (tùy vào công cụ bạn sử dụng).
+1. **Cài đặt Java và Maven**
 
 2. **Cài đặt Dependency**: Di chuyển vào thư mục `backend` và cài đặt các dependency:
 
@@ -17,7 +17,7 @@
 
 ## 2. Thiết lập Frontend (React)
 
-1. **Cài đặt Node.js và npm**: Đảm bảo rằng bạn đã cài đặt Node.js và npm.
+1. **Cài đặt Node.js và npm**
 
 2. **Cài đặt Dependency**: Di chuyển vào thư mục `frontend` và cài đặt các dependency:
 
